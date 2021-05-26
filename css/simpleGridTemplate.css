@@ -52,7 +52,7 @@ header {
 	display: inline-block;
 	width: 100%;
 	background-color: #FFFFFF;
-	/* [disabled]min-width: 400px;
+	
 */
 	padding-bottom: 35px;
 	padding-top: 0px;
@@ -60,7 +60,7 @@ header {
 	margin-bottom: 0px;
 }
 .thumbnail {
-	width: 23%;
+	width: 40%;
 	text-align: center;
 	float: left;
 	margin-top: 35px;
