@@ -108,7 +108,7 @@ header {
 	height: auto;
 	max-width: 500px;
 	max-height: 500px;
-	opacity: 0.8;
+	opacity: 1;
 }
 .intro .column p {
 	padding-left: 30px;
