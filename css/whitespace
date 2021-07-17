@@ -1,0 +1,9 @@
+table tr td {white-space:break-spaces;}
+table tr td br { display: none;}
+br {
+    content: ' '
+}
+
+br:after {
+    content: ' '
+}
