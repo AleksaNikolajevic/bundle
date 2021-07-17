@@ -7,6 +7,6 @@ br {
 br:after {
     content: ' '
 }
-a br {
-display: table-column;
+a  {
+display: block;
 }
