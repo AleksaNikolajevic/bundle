@@ -293,14 +293,19 @@ td {
 	text-align: center;
 	padding-left: 0px;
 }
-	.product-specs tr > td:first-child {
-    width: 25px;
+	.product-specs tr td:first-child {
+    width: 200px;
     background: #f1f1f1;
     display: none;
 }
-	.tabela-spec td:first-child {
-    width: 129px !important;
-    display: revert !important;
+
+.customOpis tr td:first-child {
+    display: table-cell;
+}
+
+td {
+    text-align: left;
+    white-space: pre-line !important;
 }
 }
 
