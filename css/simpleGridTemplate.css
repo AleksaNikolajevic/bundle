@@ -229,6 +229,15 @@ footer {
 	line-height: 22px;
 	text-align: center;
 }
+	.product-specs tr > td:first-child {
+    width: 25px;
+    background: #f1f1f1;
+    display: none;
+}
+	.tabela-spec td:first-child {
+    width: 129px !important;
+    display: revert !important;
+}
 }
 
 /* Small Tablets */
