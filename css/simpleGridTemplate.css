@@ -33,17 +33,21 @@ header {
 	font-size: 22px;
 }
 
-.product-specs tr td:nth-child(3) {
-    width: 100px !important;
+.product-specs tr td:first-child {
+    width: 300px;
     background: #f1f1f1;
-	display: none;
+    display: none;
 }
 
-.
-.product-specs tr td {
-    text-align: left !important;
-	white-space: pre-line !important;
+.customOpis tr td:first-child {
+    display: table-cell;
 }
+
+td {
+    text-align: left;
+    white-space: pre-line !important;
+}
+
 .hero_header {
 	color: #FFFFFF;
 	text-align: center;
