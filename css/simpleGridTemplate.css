@@ -32,16 +32,14 @@ header {
 	line-height: 2em;
 	font-size: 22px;
 }
-/*
-.product-specs tr td:first-child {
+
+.product-specs tr td:nth-child(3) {
     width: 100px !important;
     background: #f1f1f1;
+	display: none;
 }
-*/
-.spec-td-content > td {
-    width: 100px !important;
-    background: #f1f1f1;
-}
+
+.
 .product-specs tr td {
     text-align: left !important;
 	white-space: pre-line !important;
