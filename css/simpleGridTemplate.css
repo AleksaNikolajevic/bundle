@@ -342,8 +342,12 @@ td {
 	
 }
 }
-@media (max-width: 280px) {
+@media (min-width: 100px) and (max-width: 280px) {
 .customOpis tr td:first-child {
     display: table-cell;
     width: 94px;
 	}
+	
+}
+
+
