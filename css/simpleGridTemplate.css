@@ -45,9 +45,13 @@ header {
 }
 .product-specs tr:nth-child(2) td:first-child {
     background: red;
-    position: absolute !important;
+    position: absolute;
     top: -9999px !important;
     left: -9999px !important;
+}
+.customOpis {
+position: relative;
+	right: 10%;
 }
 
 .hero_header {
