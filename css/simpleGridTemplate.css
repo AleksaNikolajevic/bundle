@@ -297,7 +297,7 @@ td {
 }
 	.customOpis tr:nth-child(1n+1) td:first-child {
     position: revert !important;
-    width: 200px;
+    width: 100px;
 }
 	.customOpis {
 	position: relative;
@@ -310,6 +310,10 @@ td {
 td {
     text-align: left;
     white-space: pre-line !important;
+}
+	.product-specs tr td:first-child {
+    width: 72px;
+    background: #f1f1f1;
 }
 	
 	
@@ -413,5 +417,13 @@ td {
 	}
 	
 }
+@media (max-width: 12450px) { 
+.customOpis {
+    position: relative;
+    right: 32%;
+}
+
+}
+
 
 
