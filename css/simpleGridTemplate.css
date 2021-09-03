@@ -42,10 +42,25 @@ header {
 .customOpis tr td:first-child {
     display: table-cell;
 }
+table tr:first-child td:first-child {
+    display: revert;
+}
+table tr:nth-child(3) td:first-child {
+    display: revert;
+}
+table tr:last-child td:first-child {
+    display: revert;
+}
 
 td {
     text-align: left;
     white-space: pre-line !important;
+}
+.customOpis tr td:first-child {
+    background: #f1f1f1 !important;
+}
+.customOpis {
+    width: 1400px;
 }
 
 .hero_header {
