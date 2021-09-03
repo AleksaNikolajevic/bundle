@@ -420,7 +420,21 @@ td {
 @media (max-width: 12450px) { 
 .customOpis {
     position: relative;
-    right: 32%;
+    right: 12%;
+}
+
+}
+@media (max-width: 12450px) { 
+.customOpis {
+    position: relative;
+    right: 15%;
+}
+
+}
+@media (max-width: 12450px) { 
+.customOpis {
+    position: relative;
+    right: 17%;
 }
 
 }
