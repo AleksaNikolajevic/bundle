@@ -243,7 +243,6 @@ position: relative;
 	.product-specs tr td:first-child {
     width: 100px;
     background: #f1f1f1;
-    display: none;
 }
 
 .customOpis tr td:first-child {
@@ -323,7 +322,6 @@ td {
 	.product-specs tr td:first-child {
     width: 100px;
     background: #f1f1f1;
-    display: none;
 }
 
 .customOpis tr td:first-child {
