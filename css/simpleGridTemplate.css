@@ -471,14 +471,74 @@ td {
 
 }
 
-@media (max-width: 920px) { 
-.customOpis .customOpisMobilni {
-    position: relative;
-    right: 41%;
-	    width: 131%;
+/* Small Tablets */
+@media (min-width: 681px)and (max-width: 922px) {
+.logo {
+	width: 100%;
+	text-align: center;
+	margin-top: 13px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+.text_column {
+	width: 100%;
+	text-align: left;
+	padding: 0;
+}
+.thumbnail {
+	width: 100%;
+}
+.column {
+	width: 100%;
+	margin-top: 0px;
+}
+.thumbnail {
+	width: 100%;
+}
+.text_column {
+	padding-left: 20px;
+	padding-right: 20px;
+	width: 90%;
+}
+.column {
+	width: 100%;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+.profile {
+	width: 100%;
+}
+.intro .column p {
+	width: 90%;
+	text-align: center;
+	padding-left: 0px;
+}
+	.customOpis tr:nth-child(1n+1) td:first-child {
+    position: revert !important;
+    width: 100px;
+}
+	.customOpis {
+	position: relative;
+		right: 41% !important;
+		right: 120% !important;
+	}
+	.product-specs table tr:nth-child(2) {
+    background: white;
 }
 
+td {
+    text-align: left;
+    white-space: pre-line !important;
 }
+	.product-specs tr td:first-child {
+    width: 72px;
+    background: #f1f1f1;
+}
+	
+	
+}
+
 
 
 
