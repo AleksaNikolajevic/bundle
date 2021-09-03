@@ -464,8 +464,8 @@ td {
 @media (max-width: 1650px) { 
 .customOpis {
     position: relative;
-    right: 22% !important;
-	    width: 131% !important;
+    right: 22%;
+	    width: 131%;
 }
 
 }
