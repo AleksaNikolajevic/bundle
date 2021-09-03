@@ -332,7 +332,7 @@ td {
 }
 }
 /* medium desk */
-@media (min-width: 768px) and (max-width: 1096px) {
+@media (min-width: 1097px) and (max-width: 1441px) {
 .text_column {
 	width: 100%;
 }
