@@ -50,6 +50,10 @@ header {
 position: relative;
 	right: 11%;
 }
+.customOpis td {
+    text-align: left;
+    white-space: pre-line;
+}
 
 .hero_header {
 	color: #FFFFFF;
