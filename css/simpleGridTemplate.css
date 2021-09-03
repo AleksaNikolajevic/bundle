@@ -33,34 +33,21 @@ header {
 	font-size: 22px;
 }
 
-.product-specs tr td:first-child {
-    width: 200px;
-    background: #f1f1f1;
-    display: none;
+.product-specs tr:nth-child(2) td:first-child {
+    background: red;
+    position: absolute !important;
+    top: -9999px !important;
+    left: -9999px !important;
 }
-
-.customOpis tr td:first-child {
-    display: table-cell;
+.customOpis tr:nth-child(1n+1) td:first-child {
+    position: revert !important;
+    background: blue;
 }
-table tr:first-child td:first-child {
-    display: revert;
-}
-table tr:nth-child(3) td:first-child {
-    display: revert;
-}
-table tr:last-child td:first-child {
-    display: revert;
-}
-
-td {
-    text-align: left;
-    white-space: pre-line !important;
-}
-.customOpis tr td:first-child {
-    background: #f1f1f1 !important;
-}
-.customOpis {
-    width: 1400px;
+.product-specs tr:nth-child(2) td:first-child {
+    background: red;
+    position: absolute !important;
+    top: -9999px !important;
+    left: -9999px !important;
 }
 
 .hero_header {
