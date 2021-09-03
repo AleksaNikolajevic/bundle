@@ -372,8 +372,8 @@ td {
 }
 	.customOpis {
 	position: relative;
-		right: 46%;
-		width: 142%;
+		right: 46% !important;
+		width: 142% !important;
 	}
 	.product-specs table tr:nth-child(2) {
     background: white;
@@ -422,7 +422,7 @@ td {
 	.customOpis {
 	position: relative;
 		right: 14% !important;
-		width: 119%;
+		width: 119% !important;
 	}
 	.product-specs table tr:nth-child(2) {
     background: white;
@@ -440,32 +440,32 @@ td {
 @media (max-width: 600px) { 
 .customOpis {
     position: relative;
-    right: 48%;
-	width: 140%;
+    right: 48% !important;
+	width: 140% !important;
 }
 
 }
 @media (max-width: 500px) { 
 .customOpis {
     position: relative;
-    right: 48%;
-	width: 140%;
+    right: 48% !important;
+	width: 140% !important;
 }
 
 }
 @media (max-width: 400px) { 
 .customOpis {
     position: relative;
-    right: 60%;
-	    width: 160%;
+    right: 60% !important;
+	    width: 160% !important;
 }
 
 }
 @media (max-width: 1650px) { 
 .customOpis {
     position: relative;
-    right: 22%;
-	    width: 131%;
+    right: 22% !important;
+	    width: 131% !important;
 }
 
 }
