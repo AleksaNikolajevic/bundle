@@ -255,8 +255,8 @@ td {
 }
 	.customOpis {
 	position: relative;
-		right: 56%;
-		width: 164%;
+		right: 40% !important;
+		width: 142%;
 		background: white;
 	}
 	.product-specs table tr:nth-child(2) {
