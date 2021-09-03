@@ -295,6 +295,22 @@ td {
 	text-align: center;
 	padding-left: 0px;
 }
+	.customOpis tr:nth-child(1n+1) td:first-child {
+    position: revert !important;
+    width: 200px;
+}
+	.customOpis {
+	position: relative;
+		right: 4%;
+	}
+	.product-specs table tr:nth-child(2) {
+    background: white;
+}
+
+td {
+    text-align: left;
+    white-space: pre-line !important;
+}
 	
 	
 }
