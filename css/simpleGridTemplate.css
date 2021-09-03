@@ -306,13 +306,18 @@ td {
     display: none;
 }
 
-.customOpis tr td:first-child {
-    display: table-cell;
+.product-specs tr:nth-child(2) td:first-child {
+    position: absolute !important;
+    top: -9999px !important;
+    left: -9999px !important;
 }
-
-td {
-    text-align: left;
-    white-space: pre-line !important;
+.customOpis tr:nth-child(1n+1) td:first-child {
+    position: revert !important;
+}
+.product-specs tr:nth-child(2) td:first-child {
+    position: absolute;
+    top: -9999px !important;
+    left: -9999px !important;
 }
 	.customOpis {
     position: relative;
