@@ -417,21 +417,21 @@ td {
 	}
 	
 }
-@media (max-width: 12450px) { 
+@media (max-width: 600px) { 
 .customOpis {
     position: relative;
     right: 12%;
 }
 
 }
-@media (max-width: 12450px) { 
+@media (max-width: 500px) { 
 .customOpis {
     position: relative;
     right: 15%;
 }
 
 }
-@media (max-width: 12450px) { 
+@media (max-width: 400px) { 
 .customOpis {
     position: relative;
     right: 17%;
