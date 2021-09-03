@@ -460,6 +460,15 @@ td {
 }
 
 }
+@media (max-width: 1650px) { 
+.customOpis {
+    position: relative;
+    right: 45%;
+	    width: 143%;
+}
+
+}
+
 
 
 
