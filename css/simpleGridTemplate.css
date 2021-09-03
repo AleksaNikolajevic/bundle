@@ -54,6 +54,10 @@ position: relative;
     text-align: left;
     white-space: pre-line;
 }
+.product-specs tr td:first-child {
+    width: 200px;
+    background: #f1f1f1;
+}
 
 .hero_header {
 	color: #FFFFFF;
