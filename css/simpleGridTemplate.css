@@ -301,7 +301,7 @@ td {
 	padding-left: 0px;
 }
 	.product-specs tr td:first-child {
-    width: 200px;
+    width: 160px;
     background: #f1f1f1;
     display: none;
 }
@@ -318,6 +318,7 @@ td {
     position: relative;
     right: 3%;
 }
+	
 }
 
 /* Small Desktops */
