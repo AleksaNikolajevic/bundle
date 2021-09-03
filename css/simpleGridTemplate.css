@@ -368,6 +368,9 @@ td {
 	position: relative;
 		right: 1%;
 	}
+	.product-specs table tr:nth-child(2) {
+    background: white;
+}
 	
 }
 
