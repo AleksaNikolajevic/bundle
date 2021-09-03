@@ -300,29 +300,7 @@ td {
 	text-align: center;
 	padding-left: 0px;
 }
-	.product-specs tr td:first-child {
-    width: 160px;
-    background: #f1f1f1;
-    display: none;
-}
-
-.product-specs tr:nth-child(2) td:first-child {
-    position: absolute !important;
-    top: -9999px !important;
-    left: -9999px !important;
-}
-.customOpis tr:nth-child(1n+1) td:first-child {
-    position: revert !important;
-}
-.product-specs tr:nth-child(2) td:first-child {
-    position: absolute;
-    top: -9999px !important;
-    left: -9999px !important;
-}
-	.customOpis {
-    position: relative;
-    right: 3%;
-}
+	
 	
 }
 
