@@ -472,7 +472,7 @@ td {
 }
 
 @media (max-width: 920px) { 
-.customOpisMobilni {
+.customOpis .customOpisMobilni {
     position: relative;
     right: 41%;
 	    width: 131%;
