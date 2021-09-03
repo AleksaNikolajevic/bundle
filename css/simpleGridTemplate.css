@@ -51,7 +51,7 @@ header {
 }
 .customOpis {
 position: relative;
-	right: 10%;
+	right: 11%;
 }
 
 .hero_header {
@@ -183,11 +183,7 @@ position: relative;
 	letter-spacing: 2px;
 	border-top-width: 2px;
 }
-footer {
-	background-color: #B3B3B3;
-	padding-top: 60px;
-	padding-bottom: 60PX;
-}
+
 .intro {
 	display: inline-block;
 	background-color: #6DC7D0;
