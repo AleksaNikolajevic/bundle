@@ -41,10 +41,8 @@ header {
 }
 .customOpis tr:nth-child(1n+1) td:first-child {
     position: revert !important;
-    background: blue;
 }
 .product-specs tr:nth-child(2) td:first-child {
-    background: red;
     position: absolute;
     top: -9999px !important;
     left: -9999px !important;
