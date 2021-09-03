@@ -364,6 +364,10 @@ td {
     position: revert !important;
     width: 200px;
 }
+	.customOpis {
+	position: relative;
+		right: 1%;
+	}
 	
 }
 
