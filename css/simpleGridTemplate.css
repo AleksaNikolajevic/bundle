@@ -46,9 +46,22 @@ position: relative;
     text-align: left;
     white-space: pre-line;
 }
+.cOpis {
+width: 200%;
+}
 .product-specs tr td:first-child {
     width: 200px;
     background: #f1f1f1;
+	display: none; 
+}
+.cOpis tr td:first-child {
+    display: revert;
+}
+.product-specs tr:nth-child(3) td:first-child {
+    display: revert;
+}
+.product-specs tr:nth-child(4) td:first-child {
+    display: revert;
 }
 
 .hero_header {
